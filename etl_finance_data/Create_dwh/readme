@@ -1,0 +1,5 @@
+Tổng quan những gì đã làm trong phần này:
+- Tạo các bảng gốc lưu raw data 
+- Tạo các bảng để lưu phần stage data, OLAP data 
+- Tạo các procedure để update bảng 
+- Tạo các trigger để tự động hóa. Cụ thể, sau khi insert bảng nào đó (thường là bảng raw cuối cùng), trigger sẽ được khởi động để insert data từ raw data vào các bảng dim fact 
