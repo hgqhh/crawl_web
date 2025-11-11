@@ -1,0 +1,5 @@
+Đây là phần tự động hóa phần lấy dữ liệu và dự báo trong đồ án, cụ thể: 
+- Mỗi ngày sẽ lấy dữ liệu giá chứng khoán của ngày hôm ấy (thường là sau phiên của ngày hôm đó - sau 15h00) và tin tức (nếu có) để thêm vào cơ sở dữ liệu my sql 
+- Mô hình sẽ được chạy 1 tháng 1 lần (phần này là thủ công) và lưu dưới file pt
+- Từ file pt đã được lưu, chạy dự báo giá của ngày kế tiếp daily 
+- Lưu lại kết quả vào cơ sở dữ liệu để phục vụ dashboard
