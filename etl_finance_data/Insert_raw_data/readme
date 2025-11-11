@@ -1,0 +1,1 @@
+Phần này, ta sẽ đẩy dữ liệu được cập nhật hàng tháng vào csdl. Cụ thể, để tối ưu hiệu suất và tránh việc trùng lặp, ta đã lấy ra ngày max trong csdl, sau đó lọc các dữ liệu > ngày max đó để crawl về sau đó insert vào csdl
