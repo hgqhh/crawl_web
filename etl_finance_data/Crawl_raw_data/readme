@@ -1,0 +1,3 @@
+Tổng quan nội dung chính làm trong phần này: 
+- Lấy dữ liệu tài chính của công ty ACB từ thư viện vnstock 
+- Đẩy vào các bảng raw đã được tạo sẵn trong cơ sở dữ liệu mysql
